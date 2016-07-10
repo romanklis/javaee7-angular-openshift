@@ -15,7 +15,7 @@ The main motivation for adapting this to openshift from codenvy is its great pot
 
 3. As mentioned, the change in the sql files, to small letters. Once done it worked out-of-the-box.
 
-4. I have not managed to get javascript build tools running. Something was wrong with the output provided by grunt therefore I skipped it. If anyone finds out how to fix it - let me know.
+4. I have not managed to get javascript build tools running. Something was wrong with the output provided by grunt therefore I skipped it.
 
 ## Openshift ##
 
