@@ -25,12 +25,14 @@ First of all, one needs to get the openshift account and create a remote applica
 
 * You need JDK 7 or higher, Maven 3 to compile the application.
 * Once you cloned the project using git then simply use maven to build it using 
+
         `mvn clean install`. 
 
 ### Deploy to remote server ###
 
 The idea it to build the project locally but test is in the remote server.
 * In order to deploy the webapp we simply copy it via secure copy to the openshift webserver. 
+
         scp ./target/javaee7-angular.war <SSH-ID>@<myappname>.rhcloud.com:~/wildfly/standalone/deployments
 
 If you encounter any problems, try finding out how to ssh on your openshift server. Details can be found [here](https://developers.openshift.com/managing-your-applications/remote-connection.html).
